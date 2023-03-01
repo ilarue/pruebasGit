@@ -1,6 +1,6 @@
 import sys
 import csv
-
+# we can change something in order to view the differences and so
 #filename = "./data.txt"
 #filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.txt"
 filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.csv"

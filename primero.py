@@ -19,7 +19,7 @@ try:
 except Exception as e:
     print(e)
     sys.exit()
-    # this comment is for doing a commit
+
 file_content = csv.reader(f, delimiter=',')
 for row in file_content:
     temp = float(row[0])

@@ -1,6 +1,6 @@
 import sys
 import csv
-
+# we can change something in order to view the differences and so
 #filename = "./data.txt"
 #filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.txt"
 filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.csv"
@@ -19,7 +19,8 @@ try:
 except Exception as e:
     print(e)
     sys.exit()
-    
+# Using bach instead of git gui
+#No we try with git gui
 file_content = csv.reader(f, delimiter=',')
 for row in file_content:
     temp = float(row[0])
